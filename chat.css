@@ -1,0 +1,114 @@
+html {
+   height: 100%;
+}
+
+body {
+   margin: 0;
+   font-family: 'Source Sans Pro', arial;
+   font-size: 14px;
+   color: #222;
+   height: 100%;
+}
+
+.container {
+   width: 100%;
+   max-width: 400px;
+   height: 100%;
+}
+
+.header {
+   background-color: #33373B;
+   height: 40px;
+   width: 100%;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   max-width: 400px;
+   line-height: 40px;
+}
+
+.chat-name {
+   color: #FFF;
+   font-weight: 700;
+   text-indent: 10px;
+}
+
+.chat-box {
+   background-color: #EBE8E3;
+   width: 100%;
+   min-height: 100%;
+   display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   display: -moz-box;      /* OLD: Firefox (buggy) */ 
+   display: -ms-flexbox;   /* MID: IE 10 */
+   display: -webkit-flex;  /* NEW, Chrome 21+ */
+   display: flex;          /* NEW: Opera 12.1, Firefox 22+ */
+   
+   -webkit-box-pack: center; -moz-box-pack: center; 
+   -ms-flex-pack: center; 
+   -webkit-justify-content: flex-end;
+   justify-content: center;
+   
+   -webkit-box-align: center; -moz-box-align: center; /* OLD… */
+   -ms-flex-align: center; /* You know the drill now… */
+   -webkit-align-items: flex-start;
+   align-items: center;
+   
+   -webkit-flex-direction: column;
+   
+   flex-wrap: wrap;
+   
+}
+
+.compose-box {
+   height: 40px;
+   width: 100%;
+   max-width: 400px;
+   line-height: 40px;
+   position: fixed;
+   bottom: 0px;
+}
+
+.image-btn {
+   width: 10%;
+   float: left;
+   background-color: #60605E;
+   background-image: url(camera.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 40px;
+}
+
+.compose-box input {
+   height: 40px;
+   border: none;
+   outline: none;
+   float: left;
+   width: 70%;
+   padding: 0px;
+   text-indent: 10px;
+   font-family: 'Source Sans Pro', arial;
+   font-size: 14px;
+   border-top: 1px solid #ABABA4;
+   box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+}
+
+.message-btn {
+   height: 40px;
+   color: #FFF;
+   width: 20%;
+   float: left;
+   text-align: center;
+   background-color: #2abfb8;
+}
+
+.message-box {
+   background-color: #FFF;
+   border: 1px solid #ABABA4;
+   box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   width: 70%;
+}
+
